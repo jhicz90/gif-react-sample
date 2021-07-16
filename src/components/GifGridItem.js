@@ -4,7 +4,7 @@ export const GifGridItem = ({ img }) => {
 
     return (
         <div className="col-3">
-            <div className="card mb-3 me-1">
+            <div className="card mb-3 me-1 animate__animated animate__fadeIn">
                 <img src={img.url} className="card-img-top" alt={img.title}></img>
                 <div className="card-body">
                     <div className="card-title text-capitalize fs-6">{img.title}</div>
